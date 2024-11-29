@@ -34,7 +34,7 @@ Bohužel kompletní eliminace upozornění operačního systému na “potenciá
 
 Posledním krokem bylo sepsání “licence” k obrázkům ve fotobance. Proto, že se dle zadání seminární práce nemuselo jednat o vyčerpávající právní text, byl zvolen přístup, který bude pro fiktivního koncového uživatele co nejpochopitelnější – tedy prostá čeština a příklady vysvětlující jednotlivé pojmy, pokud uživatel zadá číslo odstavce, který potřebuje vysvětlit.
 
-Při sepisování „licence“ byla užita umělá inteligence Copilot, která využívá jazykový model GPT‑4o. Specificky byla použita dle tabulky níže.
+Při sepisování „licence“ byla užita umělá inteligence Copilot, která využívá jazykový model GPT‑4o. Specificky byla použita dle tabulky níže. Dále byla umělá inteligence použita při sepisování instalačního scriptu.
 
 Úvodní prompt: _Odpovídej stručně a pouze tím, co po tobě budu explicitně vyžadovat._
 
@@ -45,3 +45,7 @@ Při sepisování „licence“ byla užita umělá inteligence Copilot, která 
 | _Uveď několik příkladů osobního užití obrázku._ | Tapeta na mobil nebo počítač.<br><br>Sdílení na osobních sociálních sítích.<br><br>Tisk do fotoalba nebo na stěnu.<br><br>Výroba osobních přání nebo pozvánek.<br><br>Použití v osobním blogu nebo portfoliu.<br><br>Inspirace pro vlastní kresbu nebo tvorbu. |
 | _Rozveď do pár vět pravidlo „U obrázku nemusíte uvádět autora.“_ | Pravidlo „U obrázku nemusíte uvádět autora“ znamená, že není povinností připisovat autorství při použití obrázku, pokud to není vyžadováno licenčními podmínkami. To se často týká obrázků ve veřejné doméně nebo těch s licencemi umožňujícími volné užití bez uvedení zdroje (např. některé verze licencí CC0). U obrázků chráněných autorským právem však obvykle uvedení autora nebo zdroje vyžaduje zákon nebo licenční dohoda. Nejasnosti je třeba vždy ověřit v podmínkách užití konkrétního díla. |
 | _Co by obvykle řekla fotobanka, aby uživatel uvedl jméno autora obrázku (přestože to nevyžaduje licence). Jednou nebo dvěma větami._ | Fotobanka by obvykle doporučila uvést jméno autora jako gesto uznání a podpory jejich práce, i když to licence nevyžaduje. Mohla by také zmínit, že takový přístup může přispět k větší viditelnosti autora. |
+| _Write a batch command that opens a new terminal window with a specified message._ | REM Open a new terminal window with the message 
+start cmd /k "echo Pro spusteni programu zadejte 'fotobanka banka' pro zobrazeni licence zadejte 'fotobanka licence'" |
+| _Do the same with powershell_ | # Launch Command Prompt with the specified message
+Start-Process cmd -ArgumentList "/k echo Pro spusteni programu zadejte 'fotobanka banka' pro zobrazeni licence zadejte 'fotobanka licence'" |
