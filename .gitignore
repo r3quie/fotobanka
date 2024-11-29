@@ -1,0 +1,5 @@
+/test
+*.exe
+!dist/*.exe
+*.p*
+!*.ps1
